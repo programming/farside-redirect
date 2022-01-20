@@ -1,0 +1,12 @@
+{
+  "name": "Farside Redirect",
+  "description": "Automatically redirect requests to working instances of privacy-oriented alternative frontends.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {"scripts":["background.js"]},
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  }
+}
